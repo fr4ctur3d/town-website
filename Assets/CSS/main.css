@@ -99,6 +99,7 @@ h2 {
 .showing {
   opacity: 1;
   z-index: -1;
+  transition: none;
 }
 
 /*Navigation Elements*/
