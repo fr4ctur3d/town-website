@@ -1,4 +1,4 @@
-let headerBackgrounds = document.querySelector(".background");
+let headerBackgrounds = document.querySelectorAll(".background");
 
 let imageIndex = 0;
 
