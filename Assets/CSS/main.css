@@ -93,13 +93,13 @@ h2 {
   height: 100%;
   object-fit: cover;
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 500ms ease-in-out;
 }
 
 .showing {
   opacity: 1;
   z-index: -1;
-  transition: none;
+  transition: zoom 600ms ease-in-out;
 }
 
 /*Navigation Elements*/
