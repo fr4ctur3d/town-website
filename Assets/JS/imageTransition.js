@@ -3,7 +3,7 @@ let headerBackgrounds = document.querySelector(".background");
 let imageIndex = 0;
 
 function changeBackground() {
-    headerBackgrounds[imageIndex].classList.remove("showing");
+    headerBackgrounds[imageIndex].classList.remove(".showing");
 
     imageIndex++;
 
@@ -11,7 +11,7 @@ function changeBackground() {
         imageIndex = 0;
     }
 
-    headerBackgrounds[imageIndex].classList.add("showing");
+    headerBackgrounds[imageIndex].classList.add(".showing");
 }
 
 setInterval(changeBackground, 3000);
