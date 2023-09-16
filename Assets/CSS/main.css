@@ -1,0 +1,283 @@
+/* Code Written by Stormy Wentworth on 09/01/2023 @11:28pm.*/
+
+/*Adds Athelas Fonts for use on the website*/
+@font-face {
+    font-family: 'Athelas-Bold';
+    src: url(/Assets/CSS/Fonts/Athelas-Bold.ttf);
+}
+@font-face {
+    font-family: 'Athelas-BoldItalic';
+    src: url(/Assets/CSS/Fonts/Athelas-BoldItalic.ttf);
+}
+@font-face {
+    font-family: 'Athelas-Italic';
+    src: url(/Assets/CSS/Fonts/Athelas-Italic.ttf);
+}
+@font-face {
+    font-family: 'Athelas-Regular';
+    src: url(/Assets/CSS/Fonts/Athelas-Regular.ttf);
+}
+
+:root {
+    font-size: 16px;
+    font-family: 'Athelas-Regular';
+    /* Background Vars */
+    --bg-primary: #161516;
+    --bg-secondary: #be1e2d;
+    --bg-tretiary: #ffffff;
+    /* Text Vars */
+    --text-primary: #41393d;
+    --text-secondary: #be1e2d;
+    --text-tretiary: #ffffff;
+    /*Transistion Speed Variable*/
+    --transition-speed: 200ms;
+}
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg-tretiary);
+}
+
+/*Will be customizing the scrollbar for future version. For now there is not enough content to worry about it.*/
+body::-webkit-scrollbar {
+    width: 0.5rem;
+    background-color: var(--bg-primary);
+}
+body::-webkit-scrollbar-track {
+    background-color: var(--bg-primary);
+}
+body::-webkit-scrollbar-thumb {
+    background-color: var(--bg-secondary);
+}
+
+header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header:before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+h1 {
+  font-size: 2rem;
+  color: var(--text-tretiary);
+  margin-bottom: 1.2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  color: var(--text-tretiary);
+  font-weight: 500;
+}
+
+.imageContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+}
+
+.background {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.showing {
+  opacity: 1;
+}
+
+/*Navigation Elements*/
+.navbar {
+    position: fixed;
+    background-color: var(--bg-primary);
+    transition: width 600ms ease;
+    overflow: hidden;
+}
+
+.navbarNav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.navItem {
+    justify-content: left;
+    width: 100%;
+}
+.navItem:last-child {
+    margin-top: auto;
+}
+
+.navLink {
+    display: flex;
+    align-items: center;
+    height: 5rem;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: var(--transition-speed);
+}
+
+.navLink:hover {
+    background: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+.linkText {
+    display: none;
+    margin-left: 1rem;
+}
+
+.material-symbols-outlined {
+    width: 2rem;
+    min-width: 2rem;
+    margin: 0 1.5rem;
+    color: var(--text-secondary);
+    font-variation-settings:
+    'FILL' 1,
+    'wght' 900,
+    'GRAD' 150,
+    'opsz' 40
+}
+
+.material-symbols-outlined:hover {
+    color: var(--text-primary);
+}
+
+.material-symbols-outlined,
+.material-symbols-outlined:hover {
+    transition: var(--transition-speed);
+}
+
+.linkText,
+.linkText:hover {
+    transition: var(--transition-speed);
+}
+
+.logo {
+    background: var(--bg-primary);
+    width: 100%;
+  }
+
+  .logoSVG {
+    height: 100%;
+    width: 100%;
+  }
+  
+  /* Small screens */
+  @media only screen and (max-width: 600px) {
+    .navbar {
+      bottom: 0;
+      width: 100vw;
+      height: 5rem;
+    }
+  
+    .logo {
+      display: none;
+    }
+  
+    .navbarNav {
+      flex-direction: row;
+    }
+  
+    .navLink {
+      justify-content: center;
+    }
+  
+    main {
+      margin: 0;
+    }
+}
+  
+  /* Large screens */
+  @media only screen and (min-width: 600px) {
+    .navbar {
+      top: 0;
+      width: 5rem;
+      height: 100vh;
+    }
+  
+    .navbar:hover {
+      width: 16rem;
+    }
+  
+    .navbar:hover .linkText {
+      display: inline;
+    }
+  
+    .navbar:hover .logoSVG
+    {
+      margin-left: -1.75rem;
+    }
+  
+    .navbar:hover .logoText
+    {
+      left: 0px;
+    }
+}
+  
+  .dark {
+    /* Background Vars */
+    --bg-primary: #41393d;
+    /* Text Vars */
+    --text-primary: #be1e2d;
+    --text-secondary: #ffffff;
+}
+  
+  .light {
+    /* Background Vars */
+    --bg-primary: #d7e4c2;
+    /* Text Vars */
+    --text-primary: #be1e2d;
+    --text-secondary: #41393d;
+}
+  
+  .solar {
+    /* Background Vars */
+    --bg-primary: #41393d;
+    /* Text Vars */
+    --text-primary: #ffffff;
+    --text-secondary: #8a8c8f;
+}
+  
+  .themeIcon {
+    display: none;
+}
+  
+  .dark #darkIcon {
+    display: block;
+}
+  
+  .light #lightIcon {
+    display: block;
+}
+  
+  .solar #solarIcon {
+    display: block;
+}
+
+/*Footer Elements*/
+footer {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    padding: 1rem;
+    display: flex;
+    padding: 3rem calc((100vw - 1300px) / 2);
+}
