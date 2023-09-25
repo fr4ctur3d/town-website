@@ -187,7 +187,7 @@ h2 {
   .menuCta {
     position: relative;
     margin-top: 4rem;
-    display: flex;
+    display: block;
     width: 8rem;
     height: 5rem;
     padding: 2rem;
