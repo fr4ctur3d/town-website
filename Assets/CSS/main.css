@@ -182,6 +182,16 @@ h2 {
     height: 100%;
     width: 100%;
   }
+
+  .menuCta {
+    display: flex;
+    width: 6rem;
+    height: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text-primary);
+    color: var(--text-four)
+  }
   
   /* Small screens */
   @media only screen and (max-width: 600px) {
