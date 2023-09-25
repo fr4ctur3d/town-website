@@ -29,6 +29,7 @@
     --text-primary: #41393d;
     --text-secondary: #be1e2d;
     --text-tretiary: #ffffff;
+    --text-four: #8a8c8f;
     /*Transistion Speed Variable*/
     --transition-speed: 200ms;
 }
