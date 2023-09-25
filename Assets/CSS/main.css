@@ -185,13 +185,17 @@ h2 {
   }
 
   .menuCta {
+    position: relative;
+    margin-top: 4rem;
     display: flex;
     width: 6rem;
     height: 3rem;
+    border: 0rem solid var(--bg-primary);
+    border-radius: 0.5rem;
     align-items: center;
     justify-content: center;
-    background-color: var(--text-primary);
-    color: var(--text-four)
+    background: var(--bg-primary);
+    color: var(--text-four);
   }
   
   /* Small screens */
