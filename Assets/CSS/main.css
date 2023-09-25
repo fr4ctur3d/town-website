@@ -188,8 +188,9 @@ h2 {
     position: relative;
     margin-top: 4rem;
     display: flex;
-    width: 6rem;
-    height: 3rem;
+    width: 8rem;
+    height: 5rem;
+    padding: 2rem;
     border: 0rem solid var(--bg-primary);
     border-radius: 0.5rem;
     align-items: center;
