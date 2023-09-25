@@ -192,6 +192,7 @@ h2 {
     justify-content: center;
     background-color: var(--text-primary);
     color: var(--text-four)
+    z-index: 1;
   }
   
   /* Small screens */
