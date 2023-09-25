@@ -188,6 +188,7 @@ h2 {
     position: absolute;
     width: 6rem;
     height: 3rem;
+    border: 0rem solid var(--text-primary);
     border-radius: 2rem;
     align-items: center;
     justify-content: center;
