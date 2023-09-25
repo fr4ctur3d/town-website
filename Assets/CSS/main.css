@@ -29,6 +29,7 @@
     --text-primary: #41393d;
     --text-secondary: #be1e2d;
     --text-tretiary: #ffffff;
+    --text-four: #8a8c8f;
     /*Transistion Speed Variable*/
     --transition-speed: 200ms;
 }
@@ -184,9 +185,13 @@ h2 {
   }
 
   .menuCta {
-    display: block;
+    display: flex;
     width: 6rem;
     height: 3rem;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--text-primary);
+    color: var(--text-four)
   }
   
   /* Small screens */
