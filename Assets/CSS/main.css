@@ -189,12 +189,11 @@ h2 {
     width: 6rem;
     height: 3rem;
     border: 0rem solid var(--bg-primary);
-    border-radius: 2rem;
+    border-radius: 0.5rem;
     align-items: center;
     justify-content: center;
     background: var(--bg-primary);
     color: var(--text-four);
-    z-index: 1;
   }
   
   /* Small screens */
