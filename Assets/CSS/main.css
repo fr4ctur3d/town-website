@@ -176,18 +176,18 @@ h2 {
 }
 
 .logo {
-    background: var(--bgFour);
     width: 100%;
+    background: var(--bgFour);
   }
 
   .logoSVG {
-    height: 100%;
     width: 100%;
+    height: 100%;
   }
 
   header {
     width: 100%;
-    height: 100%;
+    height: 90vh;
   }
 
   .menuCta {
@@ -231,6 +231,12 @@ h2 {
 
   footer {
     width: 100%;
+    height: 5rem;
+  }
+
+  footer p {
+    margin-left: 5rem;
+    font-size: 1rem;
   }
   
   /* Small screens */
@@ -251,10 +257,6 @@ h2 {
   
     .navLink {
       justify-content: center;
-    }
-  
-    main {
-      margin: 0;
     }
 }
   
@@ -323,13 +325,4 @@ h2 {
   
   .solar #solarIcon {
     display: block;
-}
-
-/*Footer Elements*/
-footer {
-    margin-left: 5rem;
-    margin-right: 5rem;
-    padding: 1rem;
-    display: flex;
-    padding: 3rem calc((100vw - 1300px) / 2);
 }
