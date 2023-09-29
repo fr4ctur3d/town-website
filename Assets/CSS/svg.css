@@ -1,9 +1,5 @@
 @import url("Assets/CSS/main.css");
 
-.svgIcon {
-    fill: #fff;
-}
-
 .svgFill {
     fill-rule:evenodd;
     clip-rule:evenodd;
