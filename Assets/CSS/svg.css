@@ -1,7 +1,14 @@
 @import url("Assets/CSS/main.css");
 
 .svgFill {
-    fill: var(--bgThree);
     fill-rule:evenodd;
     clip-rule:evenodd;
+}
+
+.svgIcon {
+    fill: var(--bgThree);
+}
+
+.svgIcon:hover {
+    fill: var(--bgOne);
 }
