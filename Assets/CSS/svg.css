@@ -1,10 +1,7 @@
 @import url("Assets/CSS/main.css");
 
 .svgFill {
+    fill: var(--bgThree);
     fill-rule:evenodd;
     clip-rule:evenodd;
-}
-
-.svgEmpty {
-    display: none;
 }
