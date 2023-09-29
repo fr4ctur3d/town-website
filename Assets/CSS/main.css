@@ -31,6 +31,7 @@
     --txtTwo: #be1e2d;
     --txtThree: #ffffff;
     --txtFour: #8a8c8f;
+    --txtFive: #ffffff;
     /*Transistion Speed Variable*/
     --transition-speed: 200ms;
 }
@@ -72,13 +73,13 @@ header:before{
 
 h1 {
   font-size: 2rem;
-  color: var(--txtThree);
+  color: var(--txtFive);
   margin-bottom: 1.2rem;
 }
 
 h2 {
   font-size: 1.5rem;
-  color: var(--txtThree);
+  color: var(--txtFive);
   font-weight: 500;
 }
 
@@ -187,7 +188,7 @@ h2 {
 
   header {
     width: 100%;
-    height: 90vh;
+    height: 92vh;
   }
 
   .menuCta {
@@ -216,28 +217,72 @@ h2 {
   }
 
   .menuCtaBtn:hover {
+    border: 0.1rem var(--bgOne) solid;
+    border-radius: 0.4rem;
     background-color: var(--bgTwo);
+    color: var(--txtThree);
+    transition: var(--transition-speed);
   }
 
   .menuCtaBtn a {
     text-decoration: none;
+    font-weight: bold;
     color: var(--txtFour);
   }
 
   .menuCtaBtn a:hover {
     text-decoration: none;
+    font-weight: bold;
     color: var(--txtThree);
+    transition: var(--transition-speed);
   }
 
   footer {
+    display: inline-flex;
     width: 100%;
-    height: 5rem;
+    height: 4.6rem;
+    background-color: var(--bgTwo);
+    justify-content: space-between;
+    overflow: hidden;
   }
 
   footer p {
-    margin-left: 5rem;
+    margin-top: 1.9rem;
+    padding-left: 10rem;
     font-size: 1rem;
+    color: var(--txtThree);
+    overflow: hidden;
   }
+
+  .socialNav {
+    margin-top: 0.8rem;
+    height: 100%;
+    align-items: center;
+    margin-right: 5rem;
+    overflow: hidden;
+  }
+
+  .socialBar {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+
+  .socialItem {
+    width: 1.5rem;
+    height: 1.5rem;
+    padding-left: 1.5rem;
+    list-style: none;
+    display: inline-flex;
+    overflow: hidden;
+  }
+
+  .socialIcon {
+    width: 100%;
+    height: 100%;
+  }
+
+
   
   /* Small screens */
   @media only screen and (max-width: 600px) {
@@ -289,26 +334,32 @@ h2 {
   
   .dark {
     /* Background Vars */
-    --bg-primary: #41393d;
+    --bgOne: #161516;
+    --bgTwo: #be1e2d;
+    --bgFour: #41393d;
     /* Text Vars */
-    --text-primary: #be1e2d;
-    --text-secondary: #ffffff;
+    --txtTwo: #be1e2d;
+    --txtThree: #ffffff;
 }
   
   .light {
     /* Background Vars */
-    --bg-primary: #d7e4c2;
+    --bgOne: #d7e4c2;
+    --bgFour: #c1cfaa;
     /* Text Vars */
-    --text-primary: #be1e2d;
-    --text-secondary: #41393d;
+    --txtTwo: #be1e2d;
+    --txtThree: #161516;
+    --txtFour: #161516;
 }
   
   .solar {
     /* Background Vars */
-    --bg-primary: #41393d;
+    --bgOne: #161516;
+    --bgFour: #41393d;
+    --bgTwo: #41393d;
     /* Text Vars */
-    --text-primary: #ffffff;
-    --text-secondary: #8a8c8f;
+    --txtTwo: #ffffff;
+    --txtThree: #8a8c8f;
 }
   
   .themeIcon {
