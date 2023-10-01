@@ -1,5 +1,9 @@
-header::before {
-    opacity: 0;
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .aboutContainer {
