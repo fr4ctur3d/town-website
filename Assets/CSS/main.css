@@ -41,7 +41,7 @@ body {
     background-color: var(--bgOne);
 }
 
--webkit-scrollbar, -webkit-scrollbar-track, -webkit-scrollbar-thumb {
+html::-webkit-scrollbar, html::-webkit-scrollbar-track, html::-webkit-scrollbar-thumb {
   display: none;
   scrollbar-width: none;
   -ms-overflow-style: none;
