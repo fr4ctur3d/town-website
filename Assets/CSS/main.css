@@ -329,6 +329,7 @@ footer p {
       width: 5rem;
       height: 100vh;
       overflow: hidden;
+      overflow-y: scroll;
       flex-direction: column;
   }
 
