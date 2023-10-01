@@ -3,7 +3,7 @@ header::before {
 }
 
 .aboutContainer {
-    margin-left: 5rem;
+    margin-left: 10rem;
     position: absolute;
     display: flex;
     flex-direction: row;
