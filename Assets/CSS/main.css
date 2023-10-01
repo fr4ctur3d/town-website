@@ -329,9 +329,12 @@ footer p {
       width: 5rem;
       height: 100vh;
       overflow-y: scroll;
-      scrollbar-color: var(--bgFour);
-      scrollbar-face-color: var(--bgFour);
-      flex-direction: column;
+  }
+
+  .navbar::-webkit-scrollbar, .navbar::-webkit-scrollbar-track, .navbar::-webkit-scrollbar-thumb {
+    display: none;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
   }
 
   .navbar:hover {
