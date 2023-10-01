@@ -5,21 +5,23 @@ main {
     justify-content: center;
     align-items: center;
     width: 100%;
+
     height: 92vh;
 }
 
 .aboutContainer {
-    position: absolute;
     display: flex;
     flex-direction: row;
-    align-content: space-evenly;
-    width: 100;
+    align-content: space-around;
+    width: 90%;
     height: 100%;
     margin-left: 12rem;
     overflow: hidden;
+    padding: 0 2%;
   }
 
   .mission {
+    flex: 1;
     margin-top: 5rem;
     height: 100%;
     width: 25%;
@@ -31,6 +33,7 @@ main {
   }
 
   .vision {
+    flex: 1;
     margin-top: 5rem;
     height: 100%;
     width: 25%;
@@ -40,3 +43,13 @@ main {
     word-wrap: normal;
     overflow: hidden;
   }
+
+.mission h2, .vision h2 {
+    text-align: center;
+    color: var(--txtThree);
+}
+
+.mission p, .vision p {
+    text-align: center;
+    color: var(--txtThree);
+}
