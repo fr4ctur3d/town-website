@@ -307,11 +307,22 @@ footer p {
       margin-left: 0;
   }
 
-  /* Hide the scrollbar */
-  .navbar::-webkit-scrollbar {
-      width: 0.5rem;
-      background-color: transparent;
-  }
+/* Hide scrollbar for the navbar */
+.navbar::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--bgFour);
+  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
+}
+
+.navbar::-webkit-scrollbar-track {
+  background-color: var(--bgFour);
+  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
+}
+
+.navbar::-webkit-scrollbar-thumb {
+  background-color: var(--bgTwo);
+  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
+}
 
     /* Footer */
     footer {
@@ -350,11 +361,22 @@ footer p {
       margin-left: -1.75rem;
   }
 
-    /* Hide the scrollbar */
-    .navbar::-webkit-scrollbar {
-      width: 0.5rem;
-      background-color: transparent;
-  }
+/* Hide scrollbar for the navbar */
+.navbar::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: var(--bgFour);
+  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
+}
+
+.navbar::-webkit-scrollbar-track {
+  background-color: var(--bgFour);
+  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
+}
+
+.navbar::-webkit-scrollbar-thumb {
+  background-color: var(--bgTwo);
+  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
+}
 
     /* Footer */
     footer {
