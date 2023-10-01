@@ -328,7 +328,7 @@ footer p {
       left: 0;
       width: 5rem;
       height: 100vh;
-      overflow: auto;
+      overflow: hidden;
       flex-direction: column;
   }
 
@@ -343,16 +343,6 @@ footer p {
   .navbar:hover .logoSVG {
       margin-left: -1.75rem;
   }
-
-/* Hide the scrollbar for the navbar */
-.navbar {
-  scrollbar-width: none; /* Firefox */
-  -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
-}
-
-.navbar::-webkit-scrollbar {
-  display: none; /* Hide scrollbar in WebKit-based browsers (Chrome, Safari, newer Edge) */
-}
 
     /* Footer */
     footer {
