@@ -59,6 +59,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 5rem;
 }
 
 header:before{

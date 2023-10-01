@@ -3,7 +3,6 @@ header::before {
 }
 
 .aboutContainer {
-    padding-left: 10rem;
     position: absolute;
     display: flex;
     flex-direction: row;
