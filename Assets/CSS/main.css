@@ -279,15 +279,10 @@ footer p {
 
     /* Navbar */
     .navbar {
-      position: fixed;
       bottom: 0;
       width: 100vw;
       height: 5rem;
-      overflow: hidden;
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      padding: 0.5rem 0;
+      position: fixed; /* Fix the navbar at the bottom */
   }
 
   .navbar:hover {
@@ -320,16 +315,13 @@ footer p {
 
     /* Footer */
     footer {
-      position: fixed;
-      bottom: 0;
-      top: auto;
       width: 100%;
       background-color: var(--bgTwo);
+      margin-top: 0.25rem; /* Adjust the top margin as needed */
   }
 
   footer p {
       margin-top: 0;
-      padding-left: 10rem;
   }
 }
 
