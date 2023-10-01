@@ -308,18 +308,18 @@ footer p {
   }
 
 /* Hide scrollbar for the navbar */
-.navbar::-webkit-scrollbar {
+.navbar::-webkit-scrollbar, .navbarNav::-webkit-scrollbar-track {
   width: 0.5rem;
   background-color: var(--bgFour);
   display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
 }
 
-.navbar::-webkit-scrollbar-track {
+.navbar::-webkit-scrollbar-track, .navbarNav::-webkit-scrollbar-track {
   background-color: var(--bgFour);
   display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
 }
 
-.navbar::-webkit-scrollbar-thumb {
+.navbar::-webkit-scrollbar-thumb, .navbarNav::-webkit-scrollbar-track {
   background-color: var(--bgTwo);
   display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
 }
