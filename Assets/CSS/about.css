@@ -18,7 +18,6 @@ main {
     height: 100%;
     margin-left: 12rem;
     overflow: hidden;
-    z-index: -4;
     padding: 0 2%;
   }
 
@@ -31,7 +30,6 @@ main {
     justify-content: center;
     position: relative;
     word-wrap: normal;
-    z-index: -3;
     overflow: hidden;
   }
 
@@ -45,17 +43,14 @@ main {
     position: relative;
     word-wrap: normal;
     overflow: hidden;
-    z-index: -3;
   }
 
 .mission h2, .vision h2 {
     text-align: center;
     color: var(--txtThree);
-    z-index: 1;
 }
 
 .mission p, .vision p {
     text-align: center;
     color: var(--txtThree);
-    z-index: 1;
 }
