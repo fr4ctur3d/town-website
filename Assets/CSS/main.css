@@ -41,16 +41,10 @@ body {
     background-color: var(--bgOne);
 }
 
-/*Will be customizing the scrollbar for future version. For now there is not enough content to worry about it.*/
-body::-webkit-scrollbar {
-    width: 0.5rem;
-    background-color: var(--bgFour);
-}
-body::-webkit-scrollbar-track {
-    background-color: var(--bgFour);
-}
-body::-webkit-scrollbar-thumb {
-    background-color: var(--bgTwo);
+-webkit-scrollbar, -webkit-scrollbar-track, -webkit-scrollbar-thumb {
+  display: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
 }
 
 header {
@@ -329,12 +323,6 @@ footer p {
       width: 5rem;
       height: 100vh;
       overflow-y: scroll;
-  }
-
-  .navbar::-webkit-scrollbar, .navbar::-webkit-scrollbar-track, .navbar::-webkit-scrollbar-thumb {
-    display: none;
-    scrollbar-width: none;
-    -ms-overflow-style: none;
   }
 
   .navbar:hover {
