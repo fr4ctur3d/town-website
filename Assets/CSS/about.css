@@ -1,3 +1,7 @@
+header::before {
+    opacity: 0;
+}
+
 .aboutContainer {
     margin-left: 5rem;
     position: absolute;
