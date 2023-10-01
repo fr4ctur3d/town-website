@@ -51,11 +51,11 @@ main {
 .mission h2, .vision h2 {
     text-align: center;
     color: var(--txtThree);
-    z-index: -2;
+    z-index: 1;
 }
 
 .mission p, .vision p {
     text-align: center;
     color: var(--txtThree);
-    z-index: -2;
+    z-index: 1;
 }
