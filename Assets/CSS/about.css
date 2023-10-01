@@ -22,7 +22,7 @@ main {
   .mission {
     margin-top: 5rem;
     height: 100%;
-    width: 50%;
+    width: 25%;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -33,7 +33,7 @@ main {
   .vision {
     margin-top: 5rem;
     height: 100%;
-    width: 50%;
+    width: 25%;
     align-items: center;
     justify-content: center;
     position: relative;
