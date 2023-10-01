@@ -328,8 +328,9 @@ footer p {
       left: 0;
       width: 5rem;
       height: 100vh;
-      overflow: hidden;
       overflow-y: scroll;
+      scrollbar-color: var(--bgFour);
+      scrollbar-face-color: var(--bgFour);
       flex-direction: column;
   }
 
