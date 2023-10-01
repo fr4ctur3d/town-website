@@ -22,7 +22,7 @@ main {
 
   .mission {
     flex: 1;
-    margin-top: 5rem;
+    margin-top: 5vh;
     height: 100%;
     width: 25%;
     align-items: center;
@@ -34,7 +34,7 @@ main {
 
   .vision {
     flex: 1;
-    margin-top: 5rem;
+    margin-top: 5vh;
     height: 100%;
     width: 25%;
     align-items: center;
