@@ -234,15 +234,17 @@ h2 {
     background-color: var(--bgTwo);
     justify-content: space-between;
     overflow: hidden;
-  }
+    flex-wrap: wrap;
+}
 
-  footer p {
-    margin-top: 1.9rem;
-    padding-left: 10rem;
-    font-size: 1rem;
-    color: var(--txtThree);
-    overflow: hidden;
-  }
+footer p {
+  margin-top: 1.9rem;
+  padding-left: 10rem;
+  font-size: 1rem;
+  color: var(--txtThree);
+  overflow: hidden;
+  flex: 1;
+}
 
   .socialNav {
     margin-top: 0.8rem;
@@ -277,20 +279,30 @@ h2 {
     .navbar {
       bottom: 0;
       width: 100vw;
-      height: 5rem;
-    }
-  
-    .logo {
+      height: auto;
+      overflow-y: scroll;
+  }
+
+  .logo {
       display: none;
-    }
-  
-    .navbarNav {
-      flex-direction: row;
-    }
-  
-    .navLink {
-      justify-content: center;
-    }
+  }
+
+  .navbarNav {
+      flex-direction: column;
+  }
+
+  .navItem {
+      width: auto;
+  }
+
+  .navLink {
+      justify-content: flex-start;
+  }
+
+  .linkText {
+      display: block;
+      margin-left: 1rem;
+  }
 }
   
   /* Large screens */
@@ -300,7 +312,8 @@ h2 {
       width: 5rem;
       height: 100vh;
       opacity: 1;
-    }
+      overflow-y: auto;
+  }
   
     .navbar:hover {
       width: 16rem;
