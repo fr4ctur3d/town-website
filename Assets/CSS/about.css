@@ -17,10 +17,12 @@ header::before {
     align-items: center;
     justify-content: center;
     position: relative;
+    word-wrap: break-word;
   }
 
   .vision {
     align-items: center;
     justify-content: center;
     position: relative;
+    word-wrap: break-word;
   }
