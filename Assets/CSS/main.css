@@ -307,21 +307,14 @@ footer p {
       margin-left: 0;
   }
 
-/* Hide scrollbar for the navbar */
-.navbar::-webkit-scrollbar, .navbarNav::-webkit-scrollbar-track {
-  width: 0.5rem;
-  background-color: var(--bgFour);
-  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
+/* Hide the scrollbar for the navbar */
+.navbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
 }
 
-.navbar::-webkit-scrollbar-track, .navbarNav::-webkit-scrollbar-track {
-  background-color: var(--bgFour);
-  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
-}
-
-.navbar::-webkit-scrollbar-thumb, .navbarNav::-webkit-scrollbar-track {
-  background-color: var(--bgTwo);
-  display: none; /* Hide scrollbar in Chrome, Safari, and newer Edge */
+.navbar::-webkit-scrollbar {
+  display: none; /* Hide scrollbar in WebKit-based browsers (Chrome, Safari, newer Edge) */
 }
 
     /* Footer */
