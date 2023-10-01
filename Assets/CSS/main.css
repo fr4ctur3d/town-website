@@ -38,7 +38,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: var(--bgThree);
+    background-color: var(--bgOne);
 }
 
 /*Will be customizing the scrollbar for future version. For now there is not enough content to worry about it.*/
