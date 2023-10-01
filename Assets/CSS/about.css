@@ -18,8 +18,9 @@ main {
   }
 
   .mission {
+    margin-top: 5rem;
     height: 100%;
-    width: 20rem;
+    width: 50%;
     align-items: center;
     justify-content: center;
     position: relative;
@@ -28,8 +29,9 @@ main {
   }
 
   .vision {
+    margin-top: 5rem;
     height: 100%;
-    width: 20rem;
+    width: 50%;
     align-items: center;
     justify-content: center;
     position: relative;
