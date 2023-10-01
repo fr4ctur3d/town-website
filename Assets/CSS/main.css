@@ -213,26 +213,18 @@ h2 {
     border: 1rem;
     border-radius: 0.4rem;
     margin-left: auto;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--txtFour);
     background-color: var(--bgOne);
   }
 
   .menuCtaBtn:hover {
+    text-decoration: none;
+    font-weight: bold;
     border: 0.1rem var(--bgOne) solid;
     border-radius: 0.4rem;
     background-color: var(--bgTwo);
-    color: var(--txtThree);
-    transition: var(--transition-speed);
-  }
-
-  .menuCtaBtn a {
-    text-decoration: none;
-    font-weight: bold;
-    color: var(--txtFour);
-  }
-
-  .menuCtaBtn a:hover {
-    text-decoration: none;
-    font-weight: bold;
     color: var(--txtThree);
     transition: var(--transition-speed);
   }
