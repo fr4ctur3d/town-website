@@ -17,17 +17,20 @@ header::before {
 
   .mission {
     height: 100%;
+    width: 20rem;
     align-items: center;
     justify-content: center;
     position: relative;
-    word-wrap: break-word;
+    word-wrap: normal;
     overflow: hidden;
   }
 
   .vision {
+    height: 100%;
+    width: 20rem;
     align-items: center;
     justify-content: center;
     position: relative;
-    word-wrap: break-word;
+    word-wrap: normal;
     overflow: hidden;
   }
