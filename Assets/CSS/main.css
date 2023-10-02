@@ -311,7 +311,7 @@ footer p {
     footer {
       width: 100%;
       background-color: var(--bgTwo);
-      margin-top: 0.25rem; /* Adjust the top margin as needed */
+      margin-bottom: 8rem;
   }
 
   footer p {
