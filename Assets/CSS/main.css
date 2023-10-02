@@ -311,11 +311,17 @@ footer p {
     footer {
       width: 100%;
       background-color: var(--bgTwo);
-      margin-bottom: 8rem;
+      margin-bottom: 5rem;
   }
 
   footer p {
-      margin-top: 0;
+      margin-top: 1rem;
+      text-align: center;
+      padding-left: 1rem;
+  }
+
+  .socialNav {
+    margin-right: 1rem;
   }
 }
 
