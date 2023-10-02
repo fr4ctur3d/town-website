@@ -47,6 +47,12 @@ html::-webkit-scrollbar, html::-webkit-scrollbar-track, html::-webkit-scrollbar-
   -ms-overflow-style: none;
 }
 
+nav::-webkit-scrollbar, nav::-webkit-scrollbar-track, nav::-webkit-scrollbar-thumb {
+  display: none;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
 header {
   display: flex;
   flex-direction: column;
