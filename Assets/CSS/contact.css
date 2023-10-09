@@ -2,7 +2,7 @@
 
 .contactContainer {
     width: 80%;
-    height: auto;
+    height: 95vh;
     margin: auto;
     display: flex;
     flex-wrap: wrap;
@@ -16,12 +16,18 @@
     width: 100%;
     height: auto;
     flex: 50%;
+    border: 0rem solid var(--bgFour);
+    border-radius: 0.5rem;
+    background: var(--bgFour);
 }
 
 .contactForm {
     width: 100%;
     height: auto;
     flex: 50%;
+    border: 0rem solid var(--bgFour);
+    border-radius: 0.5rem;
+    background: var(--bgFour);
 }
 
 .contactForm h2 {
@@ -34,6 +40,9 @@
     height: 3rem;
     color: var(--txtFour);
     outline: none;
+    border: 0rem solid var(--bgFour);
+    border-radius: 0.5rem;
+    background: var(--bgFour);
 }
 
 .contactFormTextArea {
@@ -41,4 +50,7 @@
     height: 5rem;
     color: var(--txtFour);
     outline: none;
+    border: 0rem solid var(--bgFour);
+    border-radius: 0.5rem;
+    background: var(--bgFour);
 }
