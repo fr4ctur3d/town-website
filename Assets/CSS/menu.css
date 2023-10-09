@@ -56,6 +56,7 @@ main {
 }
 
 .photoItem img {
-    width: 30rem;
+    width: 34rem;
     height: 20rem;
+    border-radius: 0.5rem;
 }
