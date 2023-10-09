@@ -23,7 +23,9 @@ main {
     width: 100%;
     height: 30rem;
     flex: 50%;
-    background-color: var(--bgFour);
+    border: 0rem solid var(--bgFour);
+    border-radius: 0.5rem;
+    background: var(--bgFour);
 }
 
 .item h2 {
@@ -41,6 +43,9 @@ main {
     width: 100%;
     height: auto;
     flex: 50%;
+    border: 0rem solid var(--bgFour);
+    border-radius: 0.5rem;
+    background: var(--bgFour);
 }
 
 .photoItem img {
