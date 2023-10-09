@@ -33,7 +33,7 @@ main {
 }
 
 .contactForm {
-    width: 100%;
+    width: 75%;
     height: auto;
     flex: 50%;
     border: 0rem solid var(--bgFour);
