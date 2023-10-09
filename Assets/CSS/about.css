@@ -27,12 +27,12 @@ main {
 }
 
 .column h2 {
-    text-align: center;
+    text-align: left;
     color: var(--txtThree);
 }
 
 .column p {
-    text-align: center;
+    text-align: left;
     color: var(--txtFour);
 }
 
