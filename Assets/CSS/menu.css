@@ -16,6 +16,9 @@ main {
     padding: 4rem;
     width: 75%;
     height: auto;
+    border: 0rem solid var(--bgFour);
+    border-radius: 0.5rem;
+    background: var(--bgFour);
   }
 
 .item {
