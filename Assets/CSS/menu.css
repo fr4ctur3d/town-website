@@ -13,12 +13,12 @@ main {
     display: grid;
     padding-left: 5rem;
     grid-template-columns: auto auto;
-    gap: 4rem;
+    margin: 1.5rem;
     width: 75%;
     height: auto;
-    border: 0rem solid var(--bgFour);
+    border: 0rem solid var(--bgOne);
     border-radius: 0.5rem;
-    background: var(--bgFour);
+    background: var(--bgOne);
   }
 
 .item {
