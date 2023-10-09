@@ -33,7 +33,7 @@ main {
 
 .column p {
     text-align: center;
-    color: var(--txtThree);
+    color: var(--txtFour);
 }
 
  /* Responsive Styles for Portrait Orientation */
