@@ -33,11 +33,12 @@ main {
 .hoursHead {
     color: var(--txtThree);
     margin-bottom: 0.5rem;
+    text-align: left;
 }
 
 .hoursBody {
     color: var(--txtFour);
-    text-align: center;
+    text-align: left;
 }
 
 .hoursBody tr td {
