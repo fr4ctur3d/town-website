@@ -15,9 +15,6 @@ main {
     gap: 1rem;
     width: 75%;
     height: 100%;
-    margin-left: 12rem;
-    overflow: hidden;
-    padding: 0 2%;
   }
 
 .column {
