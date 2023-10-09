@@ -20,6 +20,7 @@ main {
     border-radius: 0.5rem;
     background: var(--bgFour);
     align-items: center;
+    justify-content: center;
 }
 
 .contactMap {
