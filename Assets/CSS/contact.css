@@ -54,6 +54,8 @@ main {
     border: 0rem solid var(--bgOne);
     border-radius: 0.5rem;
     background: var(--bgOne);
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
 
 .contactFormTextArea {
@@ -66,4 +68,6 @@ main {
     border: 0rem solid var(--bgOne);
     border-radius: 0.5rem;
     background: var(--bgOne);
+    margin-bottom: 1rem;
+    padding: 1rem;
 }
