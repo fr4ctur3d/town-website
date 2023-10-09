@@ -7,6 +7,9 @@
     display: flex;
     flex-wrap: wrap;
     padding: 1rem;
+    border: 0rem solid var(--bgFour);
+    border-radius: 0.5rem;
+    background: var(--bgFour);
 }
 
 .contactMap {
