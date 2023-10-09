@@ -11,6 +11,7 @@ main {
 
 .aboutContainer {
     display: grid;
+    padding-left: 5rem;
     grid-template-columns: 1fr 1fr;
     gap: 4rem;
     width: 75%;
@@ -20,7 +21,6 @@ main {
 .column {
     padding: 1rem;
     height: auto;
-
     border: 0rem solid var(--bgFour);
     border-radius: 0.5rem;
     background: var(--bgFour);
