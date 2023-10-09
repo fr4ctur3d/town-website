@@ -1,0 +1,41 @@
+@import url(/town-website/Assets/CSS/main.css);
+
+.contactContainer {
+    width: 80%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.contactMap {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+
+.contactForm {
+    width: 100%;
+    height: auto;
+    flex: 50%;
+}
+
+.contactForm h2 {
+    margin-bottom: 1rem;
+    color: var(--txtThree);
+}
+
+.contactFormText {
+    width: 100%;
+    height: 3rem;
+    color: var(--txtFour);
+    outline: none;
+}
+
+.contactFormTextArea {
+    width: 100%;
+    height: 5rem;
+    color: var(--txtFour);
+    outline: none;
+}
