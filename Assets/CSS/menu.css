@@ -21,7 +21,7 @@ main {
 .item {
     display: flex;
     width: 100%;
-    height: auto;
+    height: 30rem;
     flex: 50%;
     background-color: var(--bgFour);
 }
@@ -44,6 +44,6 @@ main {
 }
 
 .photoItem img {
-    width: 20rem;
-    height: 12rem;
+    width: 40rem;
+    height: 30rem;
 }
