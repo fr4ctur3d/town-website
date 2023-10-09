@@ -35,24 +35,3 @@ main {
     text-align: left;
     color: var(--txtFour);
 }
-
- /* Responsive Styles for Portrait Orientation */
-@media only screen and (max-width: 600px) and (orientation: landscape) {
-    .aboutContainer {
-        grid-template-columns: 1fr;
-    }
-}
-
-/* Responsive Styles for Landscape Orientation */
-@media only screen and (max-width: 600px) and (orientation: landscape) {
-    .aboutContainer {
-        grid-template-columns: 1fr 1fr;
-    }
-}
-
-  /* Large screens */
-  @media only screen and (min-width: 600px) {
-    .aboutContainer {
-        grid-template-columns: 1fr 1fr;
-    }
-  }
