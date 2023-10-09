@@ -40,3 +40,8 @@ main {
     height: auto;
     flex: 50%;
 }
+
+.photoItem img {
+    width: 100%;
+    height: 100%;
+}
