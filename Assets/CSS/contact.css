@@ -73,3 +73,15 @@ main {
     margin-bottom: 1rem;
     padding: 1rem;
 }
+
+.contactFormBtn {
+    width: 5.5rem;
+    height: 1.65rem;
+    border: 1rem;
+    border-radius: 0.4rem;
+    margin-left: auto;
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--txtFour);
+    background-color: var(--bgOne);
+}
