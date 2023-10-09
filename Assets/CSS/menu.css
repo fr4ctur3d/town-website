@@ -22,7 +22,8 @@ main {
   }
 
 .item {
-    display: flex;
+    display: inline-flex;
+    columns: 3;
     width: 100%;
     height: 20rem;
     flex: 50%;
@@ -33,6 +34,7 @@ main {
 
 .item h2 {
     margin-bottom: 1rem;
+    padding-left: 1.5rem;
     color: var(--txtThree);
 }
 
@@ -43,6 +45,7 @@ main {
 
 .item p strong {
     color: var(--txtTwo);
+    padding-right: 1.5rem;
 }
 
 .photoItem {
