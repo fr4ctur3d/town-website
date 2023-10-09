@@ -16,14 +16,14 @@ main {
     margin: 1.5rem;
     width: 75%;
     height: auto;
-    border: 0rem solid var(--bgOne);
+    border: 0rem solid var(--bgFour);
     border-radius: 0.5rem;
-    background: var(--bgOne);
+    background: var(--bgFour);
   }
 
 .item {
     display: inline-flex;
-    columns: 3;
+    flex-direction: row;
     width: 100%;
     height: 20rem;
     flex: 50%;
