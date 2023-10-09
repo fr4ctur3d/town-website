@@ -82,7 +82,7 @@ main {
 
 .contactFormText {
     width: 85%;
-    height: 4rem;
+    height: 1.5rem;
     color: var(--txtFour);
     outline: none;
     border: 0rem solid var(--bgOne);
@@ -94,7 +94,7 @@ main {
 
 .contactFormTextArea {
     width: 85%;
-    height: 5rem;
+    height: 3rem;
     color: var(--txtFour);
     outline: none;
     border: 0rem solid var(--bgOne);
