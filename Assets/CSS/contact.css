@@ -19,6 +19,7 @@ main {
     border: 0rem solid var(--bgFour);
     border-radius: 0.5rem;
     background: var(--bgFour);
+    align-items: center;
 }
 
 .contactMap {
