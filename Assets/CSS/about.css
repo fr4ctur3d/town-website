@@ -10,9 +10,9 @@ main {
 }
 
 .aboutContainer {
-    display: flex;
-    flex-direction: row;
-    align-content: space-around;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
     width: 75%;
     height: 100%;
     margin-left: 12rem;
@@ -20,36 +20,37 @@ main {
     padding: 0 2%;
   }
 
-  .mission {
-    flex: 1;
-    margin-top: 5vh;
-    height: 100%;
-    width: 15%;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    word-wrap: normal;
-    overflow: hidden;
-  }
+.column {
+    padding: 1rem;
+}
 
-  .vision {
-    flex: 1;
-    margin-top: 5vh;
-    height: 100%;
-    width: 15%;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-    word-wrap: normal;
-    overflow: hidden;
-  }
-
-.mission h2, .vision h2 {
+.column h2 {
     text-align: center;
     color: var(--txtThree);
 }
 
-.mission p, .vision p {
+.column p {
     text-align: center;
     color: var(--txtThree);
 }
+
+ /* Responsive Styles for Portrait Orientation */
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    .aboutContainer {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Responsive Styles for Landscape Orientation */
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    .aboutContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+  /* Large screens */
+  @media only screen and (min-width: 600px) {
+    .aboutContainer {
+        grid-template-columns: 1fr 1fr;
+    }
+  }
