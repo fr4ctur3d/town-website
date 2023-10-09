@@ -38,6 +38,10 @@ main {
     color: var(--txtFour);
 }
 
+.item p strong {
+    color: var(--txtTwo);
+}
+
 .photoItem {
     display: flex;
     width: 100%;
