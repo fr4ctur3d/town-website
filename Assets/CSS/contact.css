@@ -36,6 +36,7 @@ main {
 
 .hoursBody {
     color: var(--txtFour);
+    text-align: center;
 }
 
 .contactMap {
@@ -66,7 +67,7 @@ main {
 }
 
 .contactFormText {
-    width: 100%;
+    width: 85%;
     height: 3rem;
     color: var(--txtFour);
     outline: none;
@@ -78,7 +79,7 @@ main {
 }
 
 .contactFormTextArea {
-    width: 100%;
+    width: 85%;
     height: 5rem;
     color: var(--txtFour);
     outline: none;
