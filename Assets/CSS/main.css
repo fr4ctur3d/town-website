@@ -146,7 +146,7 @@ h2 {
 }
 
 .navLink:focus {
-  border: 2rem solid var(--bgFive);
+  border: 0.4rem solid var(--bgFive);
   border-radius: 0.25rem;
 }
 
@@ -225,7 +225,7 @@ h2 {
   }
 
   .menuCtaBtn:focus {
-    border: 2rem solid var(--bgFive);
+    border: 0.4rem solid var(--bgFive);
     border-radius: 0.4rem;
   }
 
@@ -287,7 +287,7 @@ footer p {
   }
 
   .socialIcon:focus {
-    border: 1.5rem solid var(--bgFive);
+    border: 0.5rem solid var(--bgThree);
     border-radius: 0.25rem;
   }
 
