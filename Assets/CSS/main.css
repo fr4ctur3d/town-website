@@ -363,10 +363,18 @@ footer p {
     height: auto;
   }
 
-  footer p {
+  .footerAlign {
+    display: inline-flex;
+    flex-direction: column;
+  }
+
+  .footerAlign li {
     display: inline-flex;
     flex-direction: row;
-    text-align: left;
+  }
+
+  footer p {
+    text-align: center;
   }
 
   .socialNav {
