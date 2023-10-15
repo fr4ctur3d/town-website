@@ -364,6 +364,8 @@ footer p {
   }
 
   footer p {
+    display: inline-flex;
+    flex-direction: row;
     text-align: center;
   }
 
