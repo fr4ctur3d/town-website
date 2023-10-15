@@ -321,7 +321,11 @@ footer p {
 
 /* Media query for portrait mode */
 @media only screen and (max-width: 600px) and (orientation: portrait) {
-  /* Adjust the styles for portrait mode here */
+
+  .skipLink {
+    margin-top: 6rem;
+  }
+
   .navbar {
       display: flex; /* Horizontal layout for navbar in portrait mode */
       flex-direction: row; /* Navbar items should be displayed in a row */
@@ -348,7 +352,7 @@ footer p {
       flex-direction: column; /* Header content remains vertical */
       padding: 0; /* No padding for portrait mode */
       margin-left: 0;
-      margin-bottom: 5rem;
+      margin-top: 5rem;
   }
 
   footer {
