@@ -319,17 +319,22 @@ footer p {
 @media only screen and (max-height: 600px) and (orientation: portrait) {
   /* Adjust the styles for portrait mode here */
   .navbar {
-      flex-direction: row; /* Horizontal layout */
+      display: flex; /* Horizontal layout for navbar in portrait mode */
+      flex-direction: row; /* Navbar items should be displayed in a row */
       width: 100%; /* Full width in portrait mode */
+      height: 5rem;
   }
 
   .linkText {
-      display: none; /* Hide link text */
+      display: none; /* Hide link text in portrait mode */
   }
 
   header {
-      flex-direction: column; /* Vertical layout for portrait mode */
+      display: flex; /* Vertical layout for header content in portrait mode */
+      flex-direction: column; /* Header content remains vertical */
       padding: 0; /* No padding for portrait mode */
+      margin-left: 0;
+      margin-bottom: 5rem;
   }
 }
 
@@ -338,16 +343,20 @@ footer p {
 @media only screen and (min-width: 601px) {
   /* Reset styles for landscape or desktop mode (vertical layout) */
   .navbar {
-      flex-direction: column; /* Vertical layout */
+      display: flex; /* Vertical layout for navbar in landscape or desktop mode */
+      flex-direction: column; /* Navbar items should be displayed in a column */
       width: 5rem; /* Reset width for vertical layout */
   }
 
   .linkText {
-      display: inline; /* Show link text */
+      display: inline; /* Show link text in landscape or desktop mode */
   }
 
   header {
+      display: flex; /* Vertical layout for header content in landscape or desktop mode */
+      flex-direction: column; /* Header content remains vertical */
       padding: 0 5rem; /* Reset padding for landscape or desktop mode */
+      margin-left: 5rem;
   }
 }
   
