@@ -26,6 +26,7 @@
     --bgTwo: #be1e2d;
     --bgThree: #ffffff;
     --bgFour: #41393d;
+    --bgFive: #ef4e22;
     /* Text Vars */
     --txtOne: #41393d;
     --txtTwo: #be1e2d;
@@ -130,6 +131,12 @@ h2 {
     justify-content: left;
     width: 100%;
 }
+
+.navItem:focus {
+  border: 1.5rem solid var(--bgFive);
+  border-radius: 0.25rem;
+}
+
 .navItem:last-child {
     margin-top: auto;
 }
@@ -227,6 +234,11 @@ h2 {
     transition: var(--transition-speed);
   }
 
+  .menuCtaBtn:focus {
+    border: 1.5rem solid var(--bgFive);
+    border-radius: 0.25rem;
+  }
+
   footer {
     display: inline-flex;
     width: 100%;
@@ -267,6 +279,11 @@ footer p {
     list-style: none;
     display: inline-flex;
     overflow: hidden;
+  }
+
+  .socialItem:focus {
+    border: 1.5rem solid var(--bgFive);
+    border-radius: 0.25rem;
   }
 
   .socialIcon {
