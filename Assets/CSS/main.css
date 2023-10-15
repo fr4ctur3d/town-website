@@ -352,10 +352,25 @@ footer p {
       flex-direction: column; /* Header content remains vertical */
       padding: 0; /* No padding for portrait mode */
       margin-left: 0;
-      margin-top: 5rem;
   }
 
   footer {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .socialNav {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .socialBar {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .socialItem {
     display: inline-flex;
     flex-direction: row;
   }
