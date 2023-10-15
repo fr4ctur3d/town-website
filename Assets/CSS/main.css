@@ -366,7 +366,7 @@ footer p {
   footer p {
     display: inline-flex;
     flex-direction: row;
-    text-align: center;
+    text-align: left;
   }
 
   .socialNav {
