@@ -11,15 +11,13 @@ main {
     background-color: var(--bgOne);
 }
 
-/* Contact.css */
-
 /* Default Styles */
 .contactContainer {
     display: grid;
     padding: 1rem;
     grid-template-columns: 1fr;
     gap: 2rem;
-    width: 100%;
+    width: 75%;
     max-width: 600px;
     margin: 0 auto;
     background: var(--bgFour);
