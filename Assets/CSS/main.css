@@ -132,11 +132,6 @@ h2 {
     width: 100%;
 }
 
-.navItem:focus {
-  border: 1.5rem solid var(--bgFive);
-  border-radius: 0.25rem;
-}
-
 .navItem:last-child {
     margin-top: auto;
 }
@@ -148,6 +143,11 @@ h2 {
     color: var(--txtThree);
     text-decoration: none;
     transition: var(--transition-speed);
+}
+
+.navLink:focus {
+  border: 2rem solid var(--bgFive);
+  border-radius: 0.25rem;
 }
 
 .navLink:hover {
@@ -224,6 +224,11 @@ h2 {
     background-color: var(--bgOne);
   }
 
+  .menuCtaBtn:focus {
+    border: 2rem solid var(--bgFive);
+    border-radius: 0.4rem;
+  }
+
   .menuCtaBtn:hover {
     text-decoration: none;
     font-weight: bold;
@@ -232,11 +237,6 @@ h2 {
     background-color: var(--bgTwo);
     color: var(--txtThree);
     transition: var(--transition-speed);
-  }
-
-  .menuCtaBtn:focus {
-    border: 1.5rem solid var(--bgFive);
-    border-radius: 0.25rem;
   }
 
   footer {
@@ -281,14 +281,14 @@ footer p {
     overflow: hidden;
   }
 
-  .socialItem:focus {
-    border: 1.5rem solid var(--bgFive);
-    border-radius: 0.25rem;
-  }
-
   .socialIcon {
     width: 100%;
     height: 100%;
+  }
+
+  .socialIcon:focus {
+    border: 1.5rem solid var(--bgFive);
+    border-radius: 0.25rem;
   }
 
  /* Responsive Styles for Portrait Orientation */
