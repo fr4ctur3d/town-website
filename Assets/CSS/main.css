@@ -316,7 +316,7 @@ footer p {
   }
 
 /* Media query for portrait mode */
-@media only screen and (max-height: 600px) and (orientation: portrait) {
+@media only screen and (max-width: 600px) and (orientation: portrait) {
   /* Adjust the styles for portrait mode here */
   .navbar {
       display: flex; /* Horizontal layout for navbar in portrait mode */
