@@ -325,6 +325,16 @@ footer p {
       height: 5rem;
   }
 
+  .navbarNav {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
+  .navItem {
+    display: inline-flex;
+    flex-direction: row;
+  }
+
   .linkText {
       display: none; /* Hide link text in portrait mode */
   }
