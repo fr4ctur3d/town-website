@@ -363,16 +363,6 @@ footer p {
     height: auto;
   }
 
-  .footerAlign {
-    display: inline-flex;
-    flex-direction: column;
-  }
-
-  .footerAlign li {
-    display: inline-flex;
-    flex-direction: row;
-  }
-
   footer p {
     text-align: center;
   }
