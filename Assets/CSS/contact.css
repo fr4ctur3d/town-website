@@ -1,32 +1,34 @@
 @import url(/town-website/Assets/CSS/main.css);
 
+/* Base styles for main and .contactContainer */
+
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    height: 92vh;
+    min-height: 50vh;
     background-color: var(--bgOne);
 }
 
+/* Contact.css */
+
+/* Default Styles */
 .contactContainer {
     display: grid;
-    padding-left: 5rem;
-    grid-template-columns: 1fr 1fr;
-    gap: 4rem;
-    width: 75%;
-    height: auto;
-    border: 0rem solid var(--bgFour);
-    border-radius: 0.5rem;
+    padding: 1rem;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
     background: var(--bgFour);
+    border-radius: 0.5rem;
 }
 
+/* Hours and Contact Info Styles */
 .hours {
-    width: 100%;
-    height: auto;
-    flex: 50%;
-    border: 0rem solid var(--bgFour);
-    border-radius: 0.5rem;
+    padding: 1rem;
     background: var(--bgFour);
 }
 
@@ -45,33 +47,28 @@ main {
     margin-bottom: 0.5rem;
 }
 
-.contactMap {
-    padding: 1rem;
-    height: auto;
-    border: 0rem solid var(--bgFour);
-    border-radius: 0.5rem;
-    background: var(--bgFour);
-}
-
 .contactInfo {
     color: var(--txtThree);
+    padding: 1rem;
+    text-align: center;
 }
 
 .contactInfo h2 {
     margin-bottom: 1rem;
-    color: var(--txtThree);
 }
 
 .contactInfo p {
     margin-bottom: 0.5rem;
-    color: var(--txtFour);
+}
+
+/* Map and Contact Form Styles */
+.contactMap {
+    padding: 1rem;
+    background: var(--bgFour);
 }
 
 .contactForm {
     padding: 1rem;
-    height: auto;
-    border: 0rem solid var(--bgFour);
-    border-radius: 0.5rem;
     background: var(--bgFour);
 }
 
@@ -80,24 +77,12 @@ main {
     color: var(--txtThree);
 }
 
-.contactFormText {
-    width: 85%;
-    height: 1.5rem;
-    color: var(--txtFour);
-    outline: none;
-    border: 0rem solid var(--bgOne);
-    border-radius: 0.5rem;
-    background: var(--bgOne);
-    margin-bottom: 1rem;
-    padding: 1rem;
-}
-
+.contactFormText,
 .contactFormTextArea {
-    width: 85%;
-    height: 3rem;
+    width: 100%;
     color: var(--txtFour);
     outline: none;
-    border: 0rem solid var(--bgOne);
+    border: 0.1rem solid var(--bgOne);
     border-radius: 0.5rem;
     background: var(--bgOne);
     margin-bottom: 1rem;
@@ -105,23 +90,45 @@ main {
 }
 
 .contactFormBtn {
-    width: 5.5rem;
-    height: 1.65rem;
-    border: 1rem;
+    width: 100%;
+    border: 0.1rem solid var(--bgOne);
     border-radius: 0.4rem;
-    margin-left: auto;
     text-decoration: none;
     font-weight: bold;
     color: var(--txtFour);
     background-color: var(--bgOne);
+    transition: var(--transition-speed);
 }
 
 .contactFormBtn:hover {
     text-decoration: none;
     font-weight: bold;
-    border: 0.1rem var(--bgOne) solid;
+    border: 0.1rem solid var(--bgOne);
     border-radius: 0.4rem;
     background-color: var(--bgTwo);
     color: var(--txtThree);
-    transition: var(--transition-speed);
-  }
+}
+
+/* Media query for portrait mode */
+@media only screen and (max-height: 600px) and (orientation: portrait) {
+    .contactContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .contactFormText,
+    .contactFormTextArea {
+        width: 100%; /* Adjust as needed for portrait mode */
+    }
+}
+
+/* Media query for landscape mode */
+@media only screen and (max-width: 600px) and (orientation: landscape) {
+    .contactContainer {
+        grid-template-columns: 1fr;
+    }
+
+    .contactFormText,
+    .contactFormTextArea {
+        width: 100%; /* Adjust as needed for landscape mode */
+    }
+}

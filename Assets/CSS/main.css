@@ -37,9 +37,12 @@
     --transition-speed: 200ms;
 }
 body {
-    margin: 0;
-    padding: 0;
-    background-color: var(--bgOne);
+  margin: 0;
+  padding: 0;
+  background-color: var(--bgOne);
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body fills the entire viewport height */
 }
 
 html::-webkit-scrollbar, html::-webkit-scrollbar-track, html::-webkit-scrollbar-thumb {
@@ -68,6 +71,7 @@ nav::-webkit-scrollbar, nav::-webkit-scrollbar-track, nav::-webkit-scrollbar-thu
   -ms-overflow-style: none;
 }
 
+/* Header (Navigation Bar) Styles */
 header {
   display: flex;
   flex-direction: column;
@@ -253,14 +257,15 @@ h2 {
     transition: var(--transition-speed);
   }
 
-  footer {
-    display: inline-flex;
-    width: 100%;
-    height: 4.6rem;
-    background-color: var(--bgTwo);
-    justify-content: space-between;
-    overflow: hidden;
-    flex-wrap: wrap;
+/* Footer Styles */
+footer {
+  display: inline-flex;
+  width: 100%;
+  height: 4.6rem;
+  background-color: var(--bgTwo);
+  justify-content: space-between;
+  overflow: hidden;
+  flex-wrap: wrap;
 }
 
 footer p {
@@ -305,88 +310,51 @@ footer p {
     height: 100%;
   }
 
- /* Responsive Styles for Portrait Orientation */
- @media only screen and (max-width: 600px) and (orientation: landscape) {
-
-    /* Navbar */
-    .navbar {
+/* Media query for portrait mode */
+@media only screen and (max-height: 600px) and (orientation: portrait) {
+  /* Navbar for portrait mode */
+  .navbar {
+      width: 100%;
+      position: static;
+      opacity: 1;
       bottom: 0;
-      width: 100vw;
-      height: 5rem;
-      position: fixed; /* Fix the navbar at the bottom */
   }
 
-  .navbar:hover {
+  /* Header for portrait mode */
+  header {
+      height: auto;
+  }
+
+  /* Footer for portrait mode */
+  footer {
       width: 100%;
-  }
-
-  .navbarNav {
-      flex-direction: row;
-      justify-content: space-around;
-  }
-
-  .navItem {
-      width: auto;
-  }
-
-  .navLink {
-      justify-content: center;
-  }
-
-  .linkText {
-      display: none;
-      margin-left: 0;
-  }
-
-    /* Footer */
-    footer {
-      width: 100%;
-      background-color: var(--bgTwo);
-      margin-bottom: 5rem;
-  }
-
-  footer p {
-      margin-top: 1rem;
-      text-align: center;
-      padding-left: 1rem;
-  }
-
-  .socialNav {
-    margin-right: 1rem;
+      position: relative;
+      margin-top: auto; /* Push the footer to the bottom of the page */
   }
 }
 
-/* Responsive Styles for Landscape Orientation */
-@media only screen and (max-width: 600px) and (orientation: landscape) {
-
-  /* Navbar */
+/* Media query for landscape mode and larger screens */
+@media only screen and (min-width: 601px), only screen and (orientation: landscape) {
+  /* Navbar for landscape mode (similar to desktop) */
   .navbar {
-      position: fixed;
-      left: 0;
       width: 5rem;
-      height: 100vh;
-      overflow-y: scroll;
+      position: fixed;
+      top: 0;
+      left: 0;
+      opacity: 1;
   }
 
-  .navbar:hover {
-      width: 16rem;
+  /* Header for landscape mode (similar to desktop) */
+  header {
+      height: 92vh;
   }
 
-  .navbar:hover .linkText {
-      display: inline;
-  }
-
-  .navbar:hover .logoSVG {
-      margin-left: -1.75rem;
-  }
-
-    /* Footer */
-    footer {
+  /* Footer for landscape mode (similar to desktop) */
+  footer {
+      width: 100%;
       position: fixed;
       bottom: 0;
-      top: auto;
-      width: auto;
-      background-color: var(--bgTwo);
+      margin-top: 0;
   }
 }
   
