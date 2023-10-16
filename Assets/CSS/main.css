@@ -323,7 +323,7 @@ footer p {
 @media only screen and (max-width: 600px) and (orientation: portrait) {
 
   .skipLink {
-    margin-top: 6rem;
+    margin-top: 5rem;
   }
 
   .navbar {
@@ -385,28 +385,6 @@ footer p {
     flex-direction: row;
   }
 }
-
-
-/* Media query for landscape or desktop mode */
-@media only screen and (min-width: 601px) {
-  /* Reset styles for landscape or desktop mode (vertical layout) */
-  .navbar {
-      display: flex; /* Vertical layout for navbar in landscape or desktop mode */
-      flex-direction: column; /* Navbar items should be displayed in a column */
-      width: 5rem; /* Reset width for vertical layout */
-  }
-
-  .linkText {
-      display: inline; /* Show link text in landscape or desktop mode */
-  }
-
-  header {
-      display: flex; /* Vertical layout for header content in landscape or desktop mode */
-      flex-direction: column; /* Header content remains vertical */
-      padding: 0 5rem; /* Reset padding for landscape or desktop mode */
-      margin-left: 5rem;
-  }
-}
   
   /* Large screens */
   @media only screen and (min-width: 600px) {
@@ -415,6 +393,8 @@ footer p {
       width: 5rem;
       height: 100vh;
       opacity: 1;
+      display: flex;
+      flex-direction: column;
       overflow-y: auto;
   }
   
@@ -436,6 +416,17 @@ footer p {
     {
       left: 0px;
     }
+
+    .linkText {
+      display: inline;
+  }
+
+    header {
+      display: flex;
+      flex-direction: column;
+      padding: 0 5rem;
+      margin-left: 5rem;
+  }
 }
   
   .dark {
