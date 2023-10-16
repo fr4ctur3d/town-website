@@ -137,7 +137,8 @@ h2 {
   transition: width 600ms ease;
   overflow: hidden;
   opacity: 1;
-  width: 5rem; /* Set initial width for vertical layout */
+  height: 100%;
+  width: 5rem;
 }
 
 /* Navbar Navigation Styles */
