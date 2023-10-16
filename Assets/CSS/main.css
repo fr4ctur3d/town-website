@@ -84,7 +84,6 @@ header {
   align-items: center;
   width: 100%;
   height: 92vh;
-  padding: 0 5rem; /* Adjust padding for the header */
 }
 
 header:before{
