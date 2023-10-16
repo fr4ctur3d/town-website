@@ -367,6 +367,8 @@ footer p {
     display: inline-flex;
     flex-direction: row;
     width: 100%;
+    justify-content: center;
+    margin: 0;
   }
 
   .socialBar {
