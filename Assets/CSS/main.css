@@ -342,13 +342,13 @@ footer p {
   }
 
   .linkText {
-      display: none; /* Hide link text in portrait mode */
+      display: none;
   }
 
   header {
-      display: flex; /* Vertical layout for header content in portrait mode */
-      flex-direction: column; /* Header content remains vertical */
-      padding: 0; /* No padding for portrait mode */
+      display: flex;
+      flex-direction: column;
+      padding: 0;
       margin-left: 0;
   }
 
@@ -374,7 +374,7 @@ footer p {
   }
 
   .socialBar {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     margin: 0;
     width: 100%;
@@ -382,7 +382,7 @@ footer p {
   }
 
   .socialItem {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
   }
 }
