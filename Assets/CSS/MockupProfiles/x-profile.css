@@ -61,6 +61,11 @@ button:hover {
     height: 25px;
 }
 
+.x--menu img {
+    width: 25px;
+    height: 25px;
+}
+
 .container--x-icon {
     width: 45px;
     height: 45px;
