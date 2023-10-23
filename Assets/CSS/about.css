@@ -9,6 +9,11 @@ main {
     background-color: var(--bgOne);
 }
 
+main img {
+    width: auto;
+    height: auto;
+}
+
 .aboutContainer {
     display: grid;
     padding-left: 5rem;
