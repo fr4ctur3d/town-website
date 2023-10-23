@@ -40,12 +40,13 @@ main {
 
 .item p {
     margin-bottom: 0.5rem;
+    padding-left: 1.5rem;
     color: var(--txtFour);
 }
 
 .item p strong {
     color: var(--txtTwo);
-    padding-right: 1.5rem;
+    padding-left: 1.5rem;
 }
 
 .photoItem {
